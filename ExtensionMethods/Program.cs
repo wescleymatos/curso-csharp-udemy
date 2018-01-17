@@ -7,9 +7,9 @@ namespace ExtensionMethods
         static void Main(string[] args)
         {
             var output = "hello World!";
-            output.FirstToUpper();
 
-            Console.WriteLine(output);
+            Console.WriteLine(output.FirstToUpper());
+            Console.ReadKey();
         }
     }
 }
